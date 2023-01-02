@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Sticky Notes</title>
+    <link rel="stylesheet" href="src/main.css">
+    <script src="src/main.js" defer></script>
+</head>
+<body>
+    <!-- Header -->
+    <div id="banner" style="font-size: 30px"> 
+        Study Website
+    </div>
+
+    <!-- Spotify -->
+    <div align="center" style="padding-top: 25px;">
+        <iframe style="border-radius:12px"
+            src="https://open.spotify.com/embed/playlist/3oYNhfXQ4faYgJAR0wraAI?utm_source=generator&theme=0" width="80%"
+            height="80" frameBorder="0" allowfullscreen="" 
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
+        </iframe>
+    </div>
+    
+    <!-- Sticky notes -->
+
+    <div id="app">
+        <textarea class="note"> Start typing here!</textarea>
+        <button class="add-note" type="button">+</button>
+    </div>
+
+    <!-- Stopwatch -->
+    <footer>
+        <div class="timerDisplay">
+            00 : 00 : 00 : 000
+        </div>
+
+        <div class="buttons">
+            <button id="startTimer">Start</button>
+            <button id="pauseTimer">Pause</button>
+            <button id="resetTimer">Reset</button>
+        </div>
+    </footer>
+</body>
+</html>
